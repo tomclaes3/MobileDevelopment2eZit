@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3b8424e-d8b0-40a6-a46c-d541550dcf1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MineClicker/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/AdventureFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/FragmentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/HighscoreActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/HighscoresFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/MinerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/NavbarFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/RegisteryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/UpgreadeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/UserContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/UserDatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/java/com/example/tom/mineclicker/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/Custom_ProgressBar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/backgrounddirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/contacts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/highscores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/menubar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/miner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/rectanglebutton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/rockfloor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/drawable/upgreade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout-land/activity_highscore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_highscore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_miners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_registery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/activity_upgreades.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/fragment_adventure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/fragment_highscores.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/fragment_miners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/fragment_navbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/layout/fragment_upgreades.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineClicker/build.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="738" />
+    <option name="y" value="51" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MobileApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MineClicker" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3b8424e-d8b0-40a6-a46c-d541550dcf1b" name="Default Changelist" comment="" />
+      <created>1565000392141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565000392141</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32953104" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>

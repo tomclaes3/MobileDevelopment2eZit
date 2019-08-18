@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backgrounddirt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/rectimageupgreade"
+            android:layout_width="0dp"
+            android:layout_height="352dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="105dp"
+            android:alpha="0.7"
+            android:src="@drawable/rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"></ImageView>
+
+
+        <ImageView
+            android:id="@+id/coinsImg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/coin" />
+
+        <EditText
+            android:id="@+id/coins"
+            android:layout_width="315dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textColor="#F7D358"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/coinsImg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="352dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textColor="#F7D358"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rectimageupgreade"
+            app:layout_constraintEnd_toEndOf="@+id/rectimageupgreade"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rectimageupgreade"
+            app:layout_constraintTop_toBottomOf="@+id/upgreadeButton"
+            app:layout_constraintVertical_bias="0.873" />
+
+        <EditText
+            android:id="@+id/coins3"
+            android:layout_width="352dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Price:"
+            android:textColor="#F7D358"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/price"
+            app:layout_constraintEnd_toEndOf="@+id/rectimageupgreade"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rectimageupgreade"
+            app:layout_constraintTop_toBottomOf="@+id/upgreadeButton"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/upgreadeButton"
+            android:layout_width="165dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/rectanglebutton"
+            android:text="buy"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/rectimageupgreade"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rectimageupgreade"
+            app:layout_constraintVertical_bias="0.42" />
+
+        <EditText
+            android:id="@+id/clickDamage"
+            android:layout_width="345dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/upgreadeButton"
+            app:layout_constraintEnd_toEndOf="@+id/rectimageupgreade"
+            app:layout_constraintStart_toStartOf="@+id/rectimageupgreade"
+            app:layout_constraintTop_toTopOf="@+id/rectimageupgreade" />
+
+        <EditText
+            android:id="@+id/clickDamageAfterUpgreade"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/coins3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/upgreadeButton" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
