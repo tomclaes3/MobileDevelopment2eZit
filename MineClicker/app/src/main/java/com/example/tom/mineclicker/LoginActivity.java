@@ -21,7 +21,6 @@ public class LoginActivity extends AppCompatActivity implements DatabaseHelper.C
     Button navigatieToMain;
     Button navigatieToRegister;
     Button loginbutton;
-    UserDatabaseHelper userDatabaseHelper = new UserDatabaseHelper(this);
     UserModel user = new UserModel();
     String username;
     //maak een methode die chekt of de user al bestaad zo ja komt hij van de login pagina zo nee komt hij van de register pagina (plaats on resum in on create)
@@ -56,7 +55,7 @@ public class LoginActivity extends AppCompatActivity implements DatabaseHelper.C
 
                 username = ((EditText) findViewById(R.id.loginUsernameText)).getText().toString();
                 DatabaseGet();
-                String allusers = userDatabaseHelper.loadHandler();
+
 
 
             }

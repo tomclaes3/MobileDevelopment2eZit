@@ -35,7 +35,6 @@ public class AdventureFragment extends Fragment implements ReloadTextFields,Data
     private EditText currentFloor;
     private EditText nextFloor;
     private CountDownTimer countDownTimer;
-    private  UserDatabaseHelper userDatabaseHelper;
     private long timeLeftInMiliseconds = 60000;
     private NotificationManagerCompat manager;
 

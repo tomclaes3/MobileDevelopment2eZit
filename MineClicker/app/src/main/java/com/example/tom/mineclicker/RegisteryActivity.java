@@ -64,14 +64,13 @@ public class RegisteryActivity extends AppCompatActivity implements DatabaseHelp
                 rePassword = ((EditText) findViewById(R.id.RepeatPassword)).getText().toString();
                 username = ((EditText) findViewById(R.id.UserName)).getText().toString();
                 locale = getResources().getConfiguration().locale.getCountry();
-                DatabaseGet();
                 SharedPreferences.Editor editor = getSharedPreferences("ACCOUNT", MODE_PRIVATE).edit();
 
                 if (password.equals(rePassword)) {
                     editor.putString("username", username);
                     editor.putString("password", password);
                     editor.apply();
-
+                    DatabaseGet();
 
 
 

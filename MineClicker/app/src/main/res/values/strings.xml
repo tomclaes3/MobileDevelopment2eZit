@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MineClicker</string>
+    <string name="username">Username:</string>
+    <string name="clicks">Clicks:</string>
+    <string name="floor">Floor:</string>
+    <string name="country">Country:</string>
+</resources>
